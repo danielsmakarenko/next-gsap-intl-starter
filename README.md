@@ -1,3 +1,7 @@
+
+
+
+
 # Next.js GSAP Internationalized Starter
 
 A production-minded Next.js starter for multilingual websites with localized SEO, GSAP animations, Lenis smooth scrolling, consent-controlled Google Analytics, light and dark themes, and an environment-controlled maintenance mode.
@@ -6,7 +10,7 @@ The project includes two example pages, translated interface copy, responsive ty
 
 ## Preview
 
-[Watch the starter demo](github/gsap_starter_video.mp4)
+https://github.com/user-attachments/assets/58202147-6924-4dfb-bd05-193b523fc680
 
 ### Localized consent
 
