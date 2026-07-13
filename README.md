@@ -1,8 +1,4 @@
-
-
-
-
-# Next.js GSAP Internationalized Starter
+# Next.js Next-Intl / GSAP / Lenis Internationalized Starter
 
 A production-minded Next.js starter for multilingual websites with localized SEO, GSAP animations, Lenis smooth scrolling, consent-controlled Google Analytics, light and dark themes, and an environment-controlled maintenance mode.
 
