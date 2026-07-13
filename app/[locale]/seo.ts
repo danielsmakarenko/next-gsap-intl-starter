@@ -3,7 +3,7 @@ import { Locale, SUPPORTED_LOCALES } from "./types";
 
 export const BASE_URL = "https://example.com";
 export const SITE_NAME = "Next.js Starter Template";
-export const OG_IMAGE_PATH = "/img/og_image.png";
+export const OG_IMAGE_PATH = "/img/og_image.webp";
 
 export function getLocalizedPath(locale: Locale, pathname: string) {
   return `/${locale}${pathname}`;

@@ -159,7 +159,7 @@ export const SITE_NAME = "Your Site Name";
 export const OG_IMAGE_PATH = "/img/your-og-image.png";
 ```
 
-Also update the matching base URL in `app/sitemap.ts`. Replace `public/img/og_image.png` with your own 1200 x 630 social image.
+Also update the matching base URL in `app/sitemap.ts`. Replace `public/img/og_image.webp` with your own 1200 x 630 social image.
 
 ## Routing
 
