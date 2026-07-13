@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Esta página não existe.",
+    "404_title2": "A página que você procura não está disponível ou foi movida.",
+    "404_button": "Voltar para a página inicial"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Página não encontrada"
+    },
+    "home": {
+      "title": "Modelo Next.js GSAP",
+      "description": "Modelo Next.js reutilizável com next-intl, animações GSAP, detecção automática de idioma e rolagem suave Lenis.",
+      "keywords": [
+        "Modelo Next.js GSAP",
+        "Modelo next-intl",
+        "Iniciador de rolagem Lenis",
+        "iniciador multilíngue Next.js",
+        "modelo de site pronto para animação",
+        "React GSAP iniciador"
+      ]
+    },
+    "home_2": {
+      "title": "Modelo Next.js GSAP | Página 2",
+      "description": "Esta rota secundária usa metadados localizados distintos para teste.",
+      "keywords": [
+        "Página de demonstração secundária Next.js",
+        "rota de teste de metadados",
+        "metadados de página localizados",
+        "Demonstração de transição de página GSAP"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Um modelo Next.js prático para projetos multilíngues prontos para animação.",
+    "description": "Este é um modelo Next.js com next-intl, detecção automática de idioma, animações GSAP instaladas e rolagem suave Lenis já configurada."
+  },
+  "maintenance": {
+    "eyebrow": "Trabalho técnico",
+    "title": "Este site está temporariamente indisponível",
+    "description": "Atualmente estou realizando trabalhos técnicos e atualizações de manutenção.",
+    "note": "Verifique novamente em breve."
+  },
+  "header": {
+    "call_button": "Para a página 2",
+    "home": "Lar"
+  },
+  "language_switcher": {
+    "europe": "Europa",
+    "asia_pacific": "Ásia-Pacífico",
+    "americas": "Américas",
+    "change_language": "Alterar idioma"
+  },
+  "theme": {
+    "light": "Luz",
+    "dark": "Escuro",
+    "switch_to": "Mudar para o tema {theme}"
+  },
+  "consent": {
+    "title": "Configurações de privacidade",
+    "description": "O Google Analytics é usado para medir as visitas e o uso deste site. O rastreamento permanece desativado até que você consinta. Você pode retirar ou alterar sua escolha a qualquer momento.",
+    "accept": "Aceitar",
+    "reject": "Rejeitar",
+    "reopen_hint": "Você pode retirar ou alterar sua escolha a qualquer momento reabrindo este banner."
+  },
+  "accessibility": {
+    "back_to_top": "Voltar ao topo"
+  }
+}

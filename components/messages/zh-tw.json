@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "該頁面不存在。",
+    "404_title2": "您要尋找的頁面不可用或已被移動。",
+    "404_button": "回首頁"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | 404找不到頁面"
+    },
+    "home": {
+      "title": "Next.js GSAP 模板",
+      "description": "可重複使用的 Next.js 模板，具有 next-intl、GSAP 動畫、自動語言偵測和 Lenis 平滑滾動。",
+      "keywords": [
+        "Next.js GSAP 模板",
+        "next-intl模板",
+        "Lenis 滾動啟動器",
+        "多語言 Next.js 入門",
+        "動畫就緒網站模板",
+        "React GSAP 啟動器"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP 範本 |第2頁",
+      "description": "此輔助路由使用不同的本地化元資料進行測試。",
+      "keywords": [
+        "Next.js 二級演示頁面",
+        "元數據測試路線",
+        "本地化頁面元數據",
+        "GSAP頁面轉換演示"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "適用於多語言、動畫就緒專案的實用 Next.js 範本。",
+    "description": "這是一個 Next.js 模板，其中包含 next-intl、自動語言偵測、已安裝的 GSAP 動畫以及已設定的 Lenis 平滑滾動。"
+  },
+  "maintenance": {
+    "eyebrow": "技術工作",
+    "title": "該網站暫時無法訪問",
+    "description": "我目前正在進行技術工作和維護更新。",
+    "note": "請稍後再回來查看。"
+  },
+  "header": {
+    "call_button": "至第 2 頁",
+    "home": "家"
+  },
+  "language_switcher": {
+    "europe": "歐洲",
+    "asia_pacific": "亞太地區",
+    "americas": "美洲",
+    "change_language": "更改語言"
+  },
+  "theme": {
+    "light": "光",
+    "dark": "黑暗的",
+    "switch_to": "切換到{theme}主題"
+  },
+  "consent": {
+    "title": "隱私設定",
+    "description": "谷歌分析用於衡量本網站的訪問和使用。在您同意之前，追蹤將保持停用狀態。您可以隨時撤回或更改您的選擇。",
+    "accept": "接受",
+    "reject": "拒絕",
+    "reopen_hint": "您可以隨時重新開啟此橫幅來撤回或更改您的選擇。"
+  },
+  "accessibility": {
+    "back_to_top": "回到頂部"
+  }
+}

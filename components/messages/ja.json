@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "このページは存在しません。",
+    "404_title2": "お探しのページは利用できないか、移動されました。",
+    "404_button": "ホームページに戻る"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 |ページが見つかりません"
+    },
+    "home": {
+      "title": "Next.js GSAP テンプレート",
+      "description": "next-intl、GSAP アニメーション、自動言語検出、Lenis スムーズ スクロールを備えた再利用可能な Next.js テンプレート。",
+      "keywords": [
+        "Next.js GSAP テンプレート",
+        "next-intl テンプレート",
+        "Lenis スクロール スターター",
+        "多言語 Next.js スターター",
+        "アニメーション対応の Web サイト テンプレート",
+        "React GSAP スターター"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP テンプレート | 2ページ目",
+      "description": "このセカンダリ ルートは、テスト用に個別のローカライズされたメタデータを使用します。",
+      "keywords": [
+        "Next.js セカンダリ デモ ページ",
+        "メタデータのテストルート",
+        "ローカライズされたページのメタデータ",
+        "GSAP ページ遷移デモ"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "多言語のアニメーション対応プロジェクト向けの実用的な Next.js テンプレート。",
+    "description": "これは、next-intl、自動言語検出、インストールされた GSAP アニメーション、および Lenis スムーズ スクロールがすでに設定されている Next.js テンプレートです。"
+  },
+  "maintenance": {
+    "eyebrow": "技術的な仕事",
+    "title": "このウェブサイトは一時的に利用できなくなりました",
+    "description": "現在、技術的な作業とメンテナンスの更新を行っています。",
+    "note": "しばらくしてからもう一度ご確認ください。"
+  },
+  "header": {
+    "call_button": "2ページへ",
+    "home": "家"
+  },
+  "language_switcher": {
+    "europe": "ヨーロッパ",
+    "asia_pacific": "アジア太平洋地域",
+    "americas": "アメリカ大陸",
+    "change_language": "言語を変更する"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "暗い",
+    "switch_to": "{theme} テーマに切り替える"
+  },
+  "consent": {
+    "title": "プライバシー設定",
+    "description": "Google Analytics は、この Web サイトへのアクセスと使用状況を測定するために使用されます。同意するまで追跡は無効のままです。いつでも選択を撤回または変更できます。",
+    "accept": "受け入れる",
+    "reject": "拒否する",
+    "reopen_hint": "このバナーを再度開くことで、いつでも選択を取り消したり変更したりできます。"
+  },
+  "accessibility": {
+    "back_to_top": "トップに戻る"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Cette page n'existe pas.",
+    "404_title2": "La page que vous recherchez n'est pas disponible ou a été déplacée.",
+    "404_button": "Retour à la page d'accueil"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Page introuvable"
+    },
+    "home": {
+      "title": "Modèle Next.js GSAP",
+      "description": "Modèle Next.js réutilisable avec animations next-intl, GSAP, détection automatique de la langue et défilement fluide Lenis.",
+      "keywords": [
+        "Modèle Next.js GSAP",
+        "Modèle next-intl",
+        "Démarreur à défilement Lenis",
+        "démarreur multilingue Next.js",
+        "modèle de site Web prêt pour l'animation",
+        "Démarreur React GSAP"
+      ]
+    },
+    "home_2": {
+      "title": "Modèle Next.js GSAP | Page 2",
+      "description": "Cette route secondaire utilise des métadonnées localisées distinctes pour les tests.",
+      "keywords": [
+        "Page de démonstration secondaire Next.js",
+        "itinéraire de test des métadonnées",
+        "métadonnées de page localisées",
+        "Démo de transition de page GSAP"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Un modèle Next.js pratique pour les projets multilingues prêts pour l'animation.",
+    "description": "Il s'agit d'un modèle Next.js avec next-intl, détection automatique de la langue, animations GSAP installées et défilement fluide Lenis déjà configuré."
+  },
+  "maintenance": {
+    "eyebrow": "Travaux techniques",
+    "title": "Ce site est temporairement indisponible",
+    "description": "J'effectue actuellement des travaux techniques et des mises à jour de maintenance.",
+    "note": "Veuillez revenir sous peu."
+  },
+  "header": {
+    "call_button": "Vers la page 2",
+    "home": "Maison"
+  },
+  "language_switcher": {
+    "europe": "Europe",
+    "asia_pacific": "Asie-Pacifique",
+    "americas": "Amériques",
+    "change_language": "Changer de langue"
+  },
+  "theme": {
+    "light": "Lumière",
+    "dark": "Sombre",
+    "switch_to": "Passer au thème {theme}"
+  },
+  "consent": {
+    "title": "Paramètres de confidentialité",
+    "description": "Google Analytics est utilisé pour mesurer les visites et l'utilisation de ce site Web. Le suivi reste désactivé jusqu'à ce que vous consentiez. Vous pouvez vous retirer ou modifier votre choix à tout moment.",
+    "accept": "Accepter",
+    "reject": "Rejeter",
+    "reopen_hint": "Vous pouvez à tout moment retirer ou modifier votre choix en rouvrant cette bannière."
+  },
+  "accessibility": {
+    "back_to_top": "Retour en haut"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Bu sayfa mevcut değil.",
+    "404_title2": "Aradığınız sayfa kullanılamıyor veya taşınmış.",
+    "404_button": "Ana sayfaya dön"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Sayfa bulunamadı"
+    },
+    "home": {
+      "title": "Next.js GSAP Şablonu",
+      "description": "next-intl, GSAP animasyonları, otomatik dil algılama ve Lenis düzgün kaydırma özelliklerine sahip yeniden kullanılabilir Next.js şablonu.",
+      "keywords": [
+        "Next.js GSAP şablonu",
+        "next-intl şablonu",
+        "Lenis kaydırma başlatıcı",
+        "çok dilli Next.js başlatıcı",
+        "animasyona hazır web sitesi şablonu",
+        "React GSAP başlatıcı"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP Şablonu | Sayfa 2",
+      "description": "Bu ikincil rota, test için farklı yerelleştirilmiş meta veriler kullanır.",
+      "keywords": [
+        "Next.js ikincil demo sayfası",
+        "meta veri test rotası",
+        "yerelleştirilmiş sayfa meta verileri",
+        "GSAP sayfa geçişi demosu"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Çok dilli, animasyona hazır projeler için pratik bir Next.js şablonu.",
+    "description": "Bu, next-intl, otomatik dil algılama, yüklü GSAP animasyonları ve önceden ayarlanmış Lenis düzgün kaydırma özelliğine sahip bir Next.js şablonudur."
+  },
+  "maintenance": {
+    "eyebrow": "Teknik çalışma",
+    "title": "Bu web sitesi geçici olarak kullanılamıyor",
+    "description": "Şu anda teknik çalışmalar ve bakım güncellemeleri yapıyorum.",
+    "note": "Lütfen kısa süre sonra tekrar kontrol edin."
+  },
+  "header": {
+    "call_button": "Sayfa 2'ye",
+    "home": "Ev"
+  },
+  "language_switcher": {
+    "europe": "Avrupa",
+    "asia_pacific": "Asya Pasifik",
+    "americas": "Amerika",
+    "change_language": "Dili değiştir"
+  },
+  "theme": {
+    "light": "Işık",
+    "dark": "Karanlık",
+    "switch_to": "{theme} temasına geçin"
+  },
+  "consent": {
+    "title": "Gizlilik ayarları",
+    "description": "Google Analytics, bu web sitesindeki ziyaretleri ve kullanımı ölçmek için kullanılır. Siz izin verene kadar izleme devre dışı kalır. Seçiminizi istediğiniz zaman geri çekebilir veya değiştirebilirsiniz.",
+    "accept": "Kabul etmek",
+    "reject": "Reddetmek",
+    "reopen_hint": "Bu bannerı tekrar açarak istediğiniz zaman seçiminizi geri çekebilir veya değiştirebilirsiniz."
+  },
+  "accessibility": {
+    "back_to_top": "Başa dön"
+  }
+}

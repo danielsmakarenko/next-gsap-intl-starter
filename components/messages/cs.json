@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Tato stránka neexistuje.",
+    "404_title2": "Stránka, kterou hledáte, není dostupná nebo byla přesunuta.",
+    "404_button": "Zpět na domovskou stránku"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Stránka nenalezena"
+    },
+    "home": {
+      "title": "Šablona Next.js GSAP",
+      "description": "Opakovaně použitelná šablona Next.js s animacemi next-intl, GSAP, automatickou detekcí jazyka a plynulým posouváním Lenis.",
+      "keywords": [
+        "Šablona Next.js GSAP",
+        "Šablona next-intl",
+        "Lenis rolovací startér",
+        "vícejazyčný startér Next.js",
+        "šablona webu připravená pro animaci",
+        "Startér React GSAP"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js Šablona GSAP | Strana 2",
+      "description": "Tato sekundární cesta používá k testování odlišná lokalizovaná metadata.",
+      "keywords": [
+        "Sekundární ukázková stránka Next.js",
+        "cesta testování metadat",
+        "lokalizovaná metadata stránky",
+        "GSAP ukázka přechodu stránky"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Praktická šablona Next.js pro vícejazyčné projekty připravené na animaci.",
+    "description": "Toto je šablona Next.js s již nastaveným next-intl, automatickou detekcí jazyka, nainstalovanými animacemi GSAP a plynulým posouváním Lenis."
+  },
+  "maintenance": {
+    "eyebrow": "Technické práce",
+    "title": "Tento web je dočasně nedostupný",
+    "description": "V současné době provádím technické práce a aktualizace údržby.",
+    "note": "Zkuste to znovu za chvíli."
+  },
+  "header": {
+    "call_button": "Na stránku 2",
+    "home": "Domov"
+  },
+  "language_switcher": {
+    "europe": "Evropa",
+    "asia_pacific": "Asie a Tichomoří",
+    "americas": "Ameriky",
+    "change_language": "Změnit jazyk"
+  },
+  "theme": {
+    "light": "Světlo",
+    "dark": "Tmavý",
+    "switch_to": "Přepněte na motiv {theme}"
+  },
+  "consent": {
+    "title": "Nastavení soukromí",
+    "description": "Google Analytics se používá k měření návštěvnosti a využití na tomto webu. Sledování zůstane zakázáno, dokud nedáte souhlas. Svou volbu můžete kdykoli odvolat nebo změnit.",
+    "accept": "Přijmout",
+    "reject": "Odmítnout",
+    "reopen_hint": "Svou volbu můžete kdykoli odvolat nebo změnit znovu otevřením tohoto banneru."
+  },
+  "accessibility": {
+    "back_to_top": "Zpět nahoru"
+  }
+}

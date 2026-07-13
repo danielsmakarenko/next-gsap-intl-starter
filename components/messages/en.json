@@ -1,0 +1,70 @@
+{
+  "404": {
+    "404_title": "This page doesn't exist.",
+    "404_title2": "The page you are looking for is unavailable or has been moved.",
+    "404_button": "Back to home page"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Page not found"
+    },
+    "home": {
+      "title": "Next.js GSAP Template",
+      "description": "Reusable Next.js template with next-intl, GSAP animations, automatic language detection, and Lenis smooth scroll.",
+      "keywords": [
+        "Next.js GSAP template",
+        "next-intl template",
+        "Lenis scroll starter",
+        "multilingual Next.js starter",
+        "animation-ready website template",
+        "React GSAP starter"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP Template | Page 2",
+      "description": "This secondary route uses distinct localized metadata for testing.",
+      "keywords": [
+        "Next.js secondary demo page",
+        "metadata testing route",
+        "localized page metadata",
+        "GSAP page transition demo"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "A practical Next.js template for multilingual, animation-ready projects.",
+    "description": "This is a Next.js template with next-intl, automatic language detection, installed GSAP animations, and Lenis smooth scroll already set up."
+  },
+  "maintenance": {
+    "eyebrow": "Technical work",
+    "title": "This website is temporarily unavailable",
+    "description": "I am currently carrying out technical work and maintenance updates.",
+    "note": "Please check back again shortly."
+  },
+  "header": {
+    "call_button": "To Page 2",
+    "home": "Home"
+  },
+  "language_switcher": {
+    "europe": "Europe",
+    "asia_pacific": "Asia Pacific",
+    "americas": "Americas",
+    "change_language": "Change language"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "switch_to": "Switch to {theme} theme"
+  },
+  "consent": {
+    "title": "Privacy settings",
+    "description": "Google Analytics is used to measure visits and usage on this website. Tracking remains disabled until you consent. You can withdraw or change your choice at any time.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "reopen_hint": "You can withdraw or change your choice at any time by reopening this banner."
+  },
+  "accessibility": {
+    "back_to_top": "Back to top"
+  }
+}
+

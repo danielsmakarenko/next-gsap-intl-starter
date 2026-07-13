@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "이 페이지는 존재하지 않습니다.",
+    "404_title2": "찾으시는 페이지가 없거나 이동되었습니다.",
+    "404_button": "홈페이지로 돌아가기"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | 페이지를 찾을 수 없습니다"
+    },
+    "home": {
+      "title": "Next.js GSAP 템플릿",
+      "description": "next-intl, GSAP 애니메이션, 자동 언어 감지 및 Lenis 부드러운 스크롤을 갖춘 재사용 가능한 Next.js 템플릿.",
+      "keywords": [
+        "Next.js GSAP 템플릿",
+        "next-intl 템플릿",
+        "Lenis 스크롤 스타터",
+        "다국어 Next.js 스타터",
+        "애니메이션이 준비된 웹사이트 템플릿",
+        "React GSAP 스타터"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP 템플릿 | 페이지 2",
+      "description": "이 보조 경로는 테스트를 위해 고유한 지역화된 메타데이터를 사용합니다.",
+      "keywords": [
+        "Next.js 보조 데모 페이지",
+        "메타데이터 테스트 경로",
+        "현지화된 페이지 메타데이터",
+        "GSAP 페이지 전환 데모"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "다국어 애니메이션 지원 프로젝트를 위한 실용적인 Next.js 템플릿입니다.",
+    "description": "이는 next-intl, 자동 언어 감지, 설치된 GSAP 애니메이션 및 Lenis 부드러운 스크롤이 이미 설정된 Next.js 템플릿입니다."
+  },
+  "maintenance": {
+    "eyebrow": "기술적인 작업",
+    "title": "이 웹사이트를 일시적으로 사용할 수 없습니다",
+    "description": "현재 기술 작업과 유지 관리 업데이트를 수행하고 있습니다.",
+    "note": "잠시 후 다시 확인해 주세요."
+  },
+  "header": {
+    "call_button": "2페이지로",
+    "home": "집"
+  },
+  "language_switcher": {
+    "europe": "유럽",
+    "asia_pacific": "아시아 태평양",
+    "americas": "아메리카",
+    "change_language": "언어 변경"
+  },
+  "theme": {
+    "light": "빛",
+    "dark": "어두운",
+    "switch_to": "{theme} 테마로 전환"
+  },
+  "consent": {
+    "title": "개인정보 설정",
+    "description": "Google Analytics는 이 웹사이트의 방문 및 사용을 측정하는 데 사용됩니다. 귀하가 동의할 때까지 추적은 비활성화된 상태로 유지됩니다. 귀하는 언제든지 선택을 철회하거나 변경할 수 있습니다.",
+    "accept": "수용하다",
+    "reject": "거부하다",
+    "reopen_hint": "이 배너를 다시 열어 언제든지 선택을 철회하거나 변경할 수 있습니다."
+  },
+  "accessibility": {
+    "back_to_top": "맨 위로 돌아가기"
+  }
+}

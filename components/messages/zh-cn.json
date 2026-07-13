@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "该页面不存在。",
+    "404_title2": "您要查找的页面不可用或已被移动。",
+    "404_button": "返回首页"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | 404找不到页面"
+    },
+    "home": {
+      "title": "Next.js GSAP 模板",
+      "description": "可重复使用的 Next.js 模板，具有 next-intl、GSAP 动画、自动语言检测和 Z​​XQTOKEN3ZXQ 平滑滚动。",
+      "keywords": [
+        "Next.js GSAP 模板",
+        "next-intl模板",
+        "Lenis 滚动启动器",
+        "多语言 Next.js 入门",
+        "动画就绪网站模板",
+        "React GSAP 启动器"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP 模板 |第2页",
+      "description": "此辅助路由使用不同的本地化元数据进行测试。",
+      "keywords": [
+        "Next.js 二级演示页面",
+        "元数据测试路线",
+        "本地化页面元数据",
+        "GSAP页面转换演示"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "适用于多语言、动画就绪项目的实用 Next.js 模板。",
+    "description": "这是一个 Next.js 模板，其中包含 next-intl、自动语言检测、已安装的 GSAP 动画以及已设置的 Lenis 平滑滚动。"
+  },
+  "maintenance": {
+    "eyebrow": "技术工作",
+    "title": "该网站暂时无法访问",
+    "description": "我目前正在进行技术工作和维护更新。",
+    "note": "请稍后再回来查看。"
+  },
+  "header": {
+    "call_button": "至第 2 页",
+    "home": "家"
+  },
+  "language_switcher": {
+    "europe": "欧洲",
+    "asia_pacific": "亚太地区",
+    "americas": "美洲",
+    "change_language": "更改语言"
+  },
+  "theme": {
+    "light": "光",
+    "dark": "黑暗的",
+    "switch_to": "切换到{theme}主题"
+  },
+  "consent": {
+    "title": "隐私设置",
+    "description": "谷歌分析用于衡量本网站的访问和使用情况。在您同意之前，跟踪将保持禁用状态。您可以随时撤回或更改您的选择。",
+    "accept": "接受",
+    "reject": "拒绝",
+    "reopen_hint": "您可以随时重新打开此横幅来撤回或更改您的选择。"
+  },
+  "accessibility": {
+    "back_to_top": "返回顶部"
+  }
+}

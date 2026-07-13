@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Diese Seite existiert nicht.",
+    "404_title2": "Die gesuchte Seite ist nicht verfügbar oder wurde verschoben.",
+    "404_button": "Zurück zur Startseite"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Seite nicht gefunden"
+    },
+    "home": {
+      "title": "Next.js GSAP Vorlage",
+      "description": "Wiederverwendbare Next.js-Vorlage mit next-intl-, GSAP-Animationen, automatischer Spracherkennung und reibungslosem Scrollen Lenis.",
+      "keywords": [
+        "Next.js GSAP-Vorlage",
+        "next-intl-Vorlage",
+        "Lenis Scrollstarter",
+        "mehrsprachiger Next.js-Starter",
+        "Animationsfähige Website-Vorlage",
+        "React GSAP Starter"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP Vorlage | Seite 2",
+      "description": "Diese sekundäre Route verwendet zum Testen unterschiedliche lokalisierte Metadaten.",
+      "keywords": [
+        "Next.js sekundäre Demoseite",
+        "Metadaten-Testroute",
+        "Lokalisierte Seitenmetadaten",
+        "GSAP Demo zum Seitenübergang"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Eine praktische Next.js-Vorlage für mehrsprachige, animationsfähige Projekte.",
+    "description": "Dies ist eine Next.js-Vorlage mit bereits eingerichteter next-intl, automatischer Spracherkennung, installierten GSAP-Animationen und Lenis Smooth Scroll."
+  },
+  "maintenance": {
+    "eyebrow": "Technische Arbeit",
+    "title": "Diese Website ist vorübergehend nicht verfügbar",
+    "description": "Ich führe derzeit technische Arbeiten und Wartungsupdates durch.",
+    "note": "Bitte schauen Sie in Kürze noch einmal vorbei."
+  },
+  "header": {
+    "call_button": "Zu Seite 2",
+    "home": "Heim"
+  },
+  "language_switcher": {
+    "europe": "Europa",
+    "asia_pacific": "Asien-Pazifik",
+    "americas": "Amerika",
+    "change_language": "Sprache ändern"
+  },
+  "theme": {
+    "light": "Licht",
+    "dark": "Dunkel",
+    "switch_to": "Wechseln Sie zum {theme}-Theme"
+  },
+  "consent": {
+    "title": "Datenschutzeinstellungen",
+    "description": "Google Analytics wird verwendet, um Besuche und Nutzung auf dieser Website zu messen. Das Tracking bleibt deaktiviert, bis Sie zustimmen. Sie können Ihre Wahl jederzeit widerrufen oder ändern.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen",
+    "reopen_hint": "Sie können Ihre Wahl jederzeit widerrufen oder ändern, indem Sie dieses Banner erneut öffnen."
+  },
+  "accessibility": {
+    "back_to_top": "Zurück nach oben"
+  }
+}

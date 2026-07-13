@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Esta página no existe.",
+    "404_title2": "La página que estás buscando no está disponible o ha sido movida.",
+    "404_button": "Volver a la página de inicio"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Página no encontrada"
+    },
+    "home": {
+      "title": "Plantilla Next.js GSAP",
+      "description": "Plantilla Next.js reutilizable con animaciones next-intl, GSAP, detección automática de idioma y desplazamiento suave Lenis.",
+      "keywords": [
+        "Plantilla Next.js GSAP",
+        "Plantilla next-intl",
+        "Arrancador de desplazamiento Lenis",
+        "arrancador multilingüe Next.js",
+        "plantilla de sitio web lista para animación",
+        "Arrancador React GSAP"
+      ]
+    },
+    "home_2": {
+      "title": "Plantilla Next.js GSAP | Página 2",
+      "description": "Esta ruta secundaria utiliza metadatos localizados distintos para las pruebas.",
+      "keywords": [
+        "Página de demostración secundaria Next.js",
+        "ruta de prueba de metadatos",
+        "metadatos de página localizados",
+        "Demostración de transición de página GSAP"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Una práctica plantilla Next.js para proyectos multilingües listos para animación.",
+    "description": "Esta es una plantilla Next.js con next-intl, detección automática de idioma, animaciones GSAP instaladas y desplazamiento suave Lenis ya configurado."
+  },
+  "maintenance": {
+    "eyebrow": "Trabajo técnico",
+    "title": "Este sitio web no está disponible temporalmente",
+    "description": "Actualmente estoy realizando trabajos técnicos y actualizaciones de mantenimiento.",
+    "note": "Vuelva a consultar en breve."
+  },
+  "header": {
+    "call_button": "A la página 2",
+    "home": "Hogar"
+  },
+  "language_switcher": {
+    "europe": "Europa",
+    "asia_pacific": "Asia Pacífico",
+    "americas": "Américas",
+    "change_language": "Cambiar idioma"
+  },
+  "theme": {
+    "light": "Luz",
+    "dark": "Oscuro",
+    "switch_to": "Cambiar al tema {theme}"
+  },
+  "consent": {
+    "title": "Configuración de privacidad",
+    "description": "Google Analytics se utiliza para medir las visitas y el uso de este sitio web. El seguimiento permanece deshabilitado hasta que usted dé su consentimiento. Puede retirarse o cambiar su elección en cualquier momento.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "reopen_hint": "Puede retirarse o cambiar su elección en cualquier momento volviendo a abrir este banner."
+  },
+  "accessibility": {
+    "back_to_top": "Volver arriba"
+  }
+}

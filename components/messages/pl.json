@@ -1,0 +1,69 @@
+{
+  "404": {
+    "404_title": "Ta strona nie istnieje.",
+    "404_title2": "Strona, której szukasz jest niedostępna lub została przeniesiona.",
+    "404_button": "Powrót do strony głównej"
+  },
+  "metadata": {
+    "404": {
+      "title": "404 | Nie znaleziono strony"
+    },
+    "home": {
+      "title": "Szablon Next.js GSAP",
+      "description": "Szablon Next.js wielokrotnego użytku z animacjami next-intl, GSAP, automatycznym wykrywaniem języka i płynnym przewijaniem Lenis.",
+      "keywords": [
+        "Szablon Next.js GSAP",
+        "Szablon next-intl",
+        "Rozrusznik przewijania Lenis",
+        "wielojęzyczny starter Next.js",
+        "szablon strony internetowej gotowy do animacji",
+        "Rozrusznik React GSAP"
+      ]
+    },
+    "home_2": {
+      "title": "Next.js GSAP Szablon | Strona 2",
+      "description": "Ta trasa pomocnicza używa do testowania odrębnych zlokalizowanych metadanych.",
+      "keywords": [
+        "Dodatkowa strona demonstracyjna Next.js",
+        "trasa testowania metadanych",
+        "zlokalizowane metadane strony",
+        "Demo przejścia stron GSAP"
+      ]
+    }
+  },
+  "home_template": {
+    "title": "Praktyczny szablon Next.js do wielojęzycznych projektów gotowych do animacji.",
+    "description": "To jest szablon Next.js z next-intl, automatycznym wykrywaniem języka, zainstalowanymi animacjami GSAP i już skonfigurowanym płynnym przewijaniem Lenis."
+  },
+  "maintenance": {
+    "eyebrow": "Prace techniczne",
+    "title": "Ta strona internetowa jest chwilowo niedostępna",
+    "description": "Aktualnie prowadzę prace techniczne i aktualizacje konserwacyjne.",
+    "note": "Sprawdź ponownie wkrótce."
+  },
+  "header": {
+    "call_button": "Do strony 2",
+    "home": "Dom"
+  },
+  "language_switcher": {
+    "europe": "Europa",
+    "asia_pacific": "Azja i Pacyfik",
+    "americas": "Ameryki",
+    "change_language": "Zmień język"
+  },
+  "theme": {
+    "light": "Światło",
+    "dark": "Ciemny",
+    "switch_to": "Przełącz na motyw {theme}"
+  },
+  "consent": {
+    "title": "Ustawienia prywatności",
+    "description": "Google Analytics służy do pomiaru odwiedzin i wykorzystania tej witryny. Śledzenie pozostaje wyłączone, dopóki nie wyrazisz zgody. W każdej chwili możesz wycofać lub zmienić swój wybór.",
+    "accept": "Przyjąć",
+    "reject": "Odrzucić",
+    "reopen_hint": "Możesz wycofać lub zmienić swój wybór w dowolnym momencie, ponownie otwierając ten baner."
+  },
+  "accessibility": {
+    "back_to_top": "Powrót do góry"
+  }
+}
