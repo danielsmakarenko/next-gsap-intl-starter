@@ -2,9 +2,11 @@ import Script from "next/script";
 
 export const GA_MEASUREMENT_ID =
   process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "";
+const CONSENT_ENABLED =
+  process.env.NEXT_PUBLIC_CONSENT_ENABLED?.toLowerCase() !== "false";
 
 export default function GoogleAnalyticsTag() {
-  if (!GA_MEASUREMENT_ID) {
+  if (!CONSENT_ENABLED || !GA_MEASUREMENT_ID) {
     return null;
   }
 

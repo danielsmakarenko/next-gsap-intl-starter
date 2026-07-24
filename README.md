@@ -4,6 +4,23 @@ A production-minded Next.js starter for multilingual websites with localized SEO
 
 The project includes two example pages, translated interface copy, responsive typography, a custom 404 page, and reusable animation hooks. It is intended as a clean foundation rather than a finished website.
 
+## Framework Version
+
+This starter currently uses **Next.js 16.2.11** with the App Router and
+Turbopack. It is paired with React 19.2, next-intl 4.13, and TypeScript 5.
+
+| Package | Version |
+| --- | --- |
+| Next.js | 16.2.11 |
+| React / React DOM | 19.2.0 |
+| next-intl | 4.13.4 |
+| GSAP | 3.13 |
+| TypeScript | 5.x |
+
+The exact installed versions are recorded in `package-lock.json`. When updating
+Next.js, keep `eslint-config-next` on the same version and verify the change
+with `npm run lint` and `npm run build`.
+
 ## Preview
 
 https://github.com/user-attachments/assets/58202147-6924-4dfb-bd05-193b523fc680
@@ -50,14 +67,19 @@ https://github.com/user-attachments/assets/58202147-6924-4dfb-bd05-193b523fc680
 
 ## Tech Stack
 
-- Next.js 16 with the App Router and Turbopack
-- React 19 and TypeScript
-- next-intl
+- Next.js 16.2.11 with the App Router and Turbopack
+- React 19.2 and TypeScript 5
+- next-intl 4.13
 - GSAP with ScrollTrigger
 - Lenis
 - next/font with multilingual font fallbacks
 
 ## Getting Started
+
+### Requirements
+
+- Node.js 20.9 or newer
+- npm 10 or newer
 
 ### 1. Install dependencies
 
@@ -65,14 +87,29 @@ https://github.com/user-attachments/assets/58202147-6924-4dfb-bd05-193b523fc680
 npm install
 ```
 
-### 2. Create `.env.local`
+### 2. Create `.env`
+
+Create a `.env` file in the repository root. Leave the values blank initially
+and configure only the features the project needs:
 
 ```env
-MAINTENANCE_MODE=false
+MAINTENANCE_MODE=
 NEXT_PUBLIC_GA_MEASUREMENT_ID=
+NEXT_PUBLIC_CONSENT_ENABLED=
 ```
 
-Both variables are optional. The values above keep the normal site available and disable Google Analytics.
+All variables are optional:
+
+- `MAINTENANCE_MODE=true` redirects public pages to the maintenance page. A
+  blank value or `false` keeps the normal site available.
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` accepts a GA4 ID such as `G-XXXXXXXXXX`. A
+  blank value disables Google Analytics.
+- `NEXT_PUBLIC_CONSENT_ENABLED=false` hides the consent interface and prevents
+  Google Analytics from loading. A blank value or `true` enables consent.
+
+The `.env` file is ignored by Git and must be created separately on each local
+machine or server. Restart the development server after changing it. Production
+changes to `NEXT_PUBLIC_*` variables require a new build.
 
 ### 3. Start development
 
@@ -184,7 +221,7 @@ Routes not present in the proxy allowlist are rewritten to `/<locale>/404`.
 
 The translated maintenance page is available at `/<locale>/maintenance`.
 
-Enable site-wide maintenance mode in `.env.local`:
+Enable site-wide maintenance mode in `.env`:
 
 ```env
 MAINTENANCE_MODE=true
@@ -217,6 +254,44 @@ window.dispatchEvent(new Event("consent:open"));
 ```
 
 To disable Google Analytics, remove `NEXT_PUBLIC_GA_MEASUREMENT_ID` or leave it empty. The consent interface remains available; remove `<ConsentManager />` from `app/[locale]/ClientLocaleLayout.tsx` only if the project does not need consent management at all.
+
+### Disabling consent through the environment
+
+To disable both the consent interface and Google Analytics, set:
+
+```env
+NEXT_PUBLIC_CONSENT_ENABLED=false
+```
+
+When disabled:
+
+- the consent banner is not rendered;
+- consent-opening events have no effect;
+- Google Analytics is not loaded, even if
+  `NEXT_PUBLIC_GA_MEASUREMENT_ID` contains an ID; and
+- visitors are not treated as having accepted tracking.
+
+The consent system remains enabled when `NEXT_PUBLIC_CONSENT_ENABLED` is unset
+or set to `true`.
+
+For local development, add the value to `.env` and restart the
+development server:
+
+```env
+NEXT_PUBLIC_CONSENT_ENABLED=false
+```
+
+For a VPS deployment, set it in the environment used by the build and rebuild
+the application before restarting it:
+
+```bash
+NEXT_PUBLIC_CONSENT_ENABLED=false npm run build
+pm2 restart APP_NAME
+```
+
+`NEXT_PUBLIC_*` values are embedded into the browser bundle during
+`next build`, so changing this variable only at runtime without rebuilding will
+not change the deployed site.
 
 Consent copy is translated under the `consent` key in each locale JSON file.
 

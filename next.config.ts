@@ -5,9 +5,6 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    turbopackUseSystemTlsCerts: true,
-  },
 };
 
 export default withNextIntl(nextConfig);

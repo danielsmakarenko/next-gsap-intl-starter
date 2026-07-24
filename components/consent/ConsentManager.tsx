@@ -7,6 +7,8 @@ import GoogleAnalyticsTag, { GA_MEASUREMENT_ID } from "./GoogleAnalyticsTag";
 type ConsentValue = "accepted" | "rejected";
 
 const STORAGE_KEY = "site-consent-v1";
+const CONSENT_ENABLED =
+  process.env.NEXT_PUBLIC_CONSENT_ENABLED?.toLowerCase() !== "false";
 
 function getStoredConsent(): ConsentValue | null {
   if (typeof window === "undefined") {
@@ -39,7 +41,7 @@ function clearAnalyticsCookies() {
   }
 }
 
-export default function ConsentManager() {
+function EnabledConsentManager() {
   const t = useTranslations("consent");
   const [consent, setConsent] = useState<ConsentValue | null>(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -113,4 +115,12 @@ export default function ConsentManager() {
       ) : null}
     </>
   );
+}
+
+export default function ConsentManager() {
+  if (!CONSENT_ENABLED) {
+    return null;
+  }
+
+  return <EnabledConsentManager />;
 }
